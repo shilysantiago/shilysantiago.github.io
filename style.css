@@ -1,0 +1,7 @@
+  .menu{
+        font-family: 'Inconsolata', monospace;
+      }
+      .menu > a {
+        text-decoration: none;
+        color: black;
+      }
