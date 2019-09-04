@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <title></title>
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/13787ee23a.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
-    <style media="screen">
+    <!--<style media="screen">
     .largura{
       font-family: 'Gloria Hallelujah', cursive;
        width: 700px;
@@ -47,31 +51,74 @@
         margin-right: 20px;
         margin-bottom: 20px;
         width: 300;
-
       }
       .selecionado{
         border-bottom: 2px dotted black;
       }
-
-
       .p-principal{
         font-family: 'Orbitron', sans-serif;
       }
     </style>
+    -->
     <body>
-          <div class="menu largura">
-          <a href="index.html" class="selecionado">inicio</a>
-          <a href="disciplinas.html" class="selecionado">minhas disciplinas</a>
-          <a href="bandas.html" class="selecionado">bandas favoritas</a>
-          <a href="lanches.html" class="selecionado">lanches favoritos</a>
-          <a href="hobbies.html" class="selecionado">hobbies</a>
-        </div>
-      <h1 class = "h1-largura"> páginas inicial</h1>
-      <div class="conteudo">
-        <img src="eu.jpeg" alt="minha chara" class="img-principal"width="300">
+
+   
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Seja Bem-Vindo</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <!--<span class="navbar-toggler-icon"></span>-->
+    <i class="fas fa-arrow-alt-circle-down"></i>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">minhas disciplinas</a>
+        </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">bandas favoritas</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">lanches favoritos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">hobbies</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="container">
+  <div class="row">
+    <div class="col - 4">
+
+      <!--<img  class="w-100" src="eu.jpeg" class="figure-img img-fluid rounded" alt="minha chara">-->
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="eu.jpg" class="d-block w-100" alt="eu">
+    </div>
+    <div class="carousel-item">
+      <img src="coxinha.jpg" class="d-block w-100" alt="coxinha.">
+    </div>
+    <div class="carousel-item">
+      <img src="cafe.jpg" class="d-block w-100" alt="cafe">
+    </div>
+  </div>
+</div>
+      <div class="container">
+      <figcaption class="figure-caption">foto de eshily</figcaption>
         <p class="p-principal"> Oie jovem gafalhoto </p>
         <p class="p-principal">Meu nome é Eshily e você está na minha página</p>
         <p class="p-principal"> saia o quanto ates, ou você vai morrer nas profundezas no nada... </p>
+      </div>
+    </div>
+
+  </div>
+</div>
+        </div>
+      <h1 class = "h1-largura"> páginas inicial</h1>
+      <div class="conteudo">
+        <figure class="figure"></figure>
+                                                                                        
         <p>Psicologia de um vencido</p>
 
     <p>Eu, filho do carbono e do amoníaco,
